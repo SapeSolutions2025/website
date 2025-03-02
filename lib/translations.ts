@@ -61,7 +61,6 @@ export const translations = {
     "form-description": "Fill out the form below and we'll get back to you as soon as possible.",
     name: "Name",
     email: "Email",
-    "project-description": "Project Description",
     budget: "Budget (Optional)",
     "budget-help": "This helps us tailor our proposal to your needs.",
     "request-quote": "Request a Quote",
@@ -78,7 +77,6 @@ export const translations = {
 
     // Contact Form Tabs
     message: "Message",
-    schedule: "Schedule",
     "contact-form-title": "Contact Form",
     "consultation-title": "Consultation Scheduling",
   },
@@ -147,7 +145,6 @@ export const translations = {
     "form-description": "Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.",
     name: "Nombre",
     email: "Correo Electrónico",
-    "project-description": "Descripción del Proyecto",
     budget: "Presupuesto (Opcional)",
     "budget-help": "Esto nos ayuda a adaptar nuestra propuesta a tus necesidades.",
     "request-quote": "Solicitar Presupuesto",
@@ -164,7 +161,6 @@ export const translations = {
 
     // Contact Form Tabs
     message: "Mensaje",
-    schedule: "Programar",
     "contact-form-title": "Formulario de Contacto",
     "consultation-title": "Programación de Consulta",
   },
