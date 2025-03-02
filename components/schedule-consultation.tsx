@@ -39,6 +39,7 @@ export function ScheduleConsultation() {
       toast.error("Something went wrong.", {
         description: "We couldn't schedule your consultation. Please try again later.",
       })
+      console.log(error)
     } finally {
       setIsSubmitting(false)
     }

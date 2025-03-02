@@ -1,12 +1,17 @@
-"use client"
-import { Globe } from "lucide-react"
+'use client'
+import { Globe } from 'lucide-react'
 
-import { Button } from "@/components/ui/button"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { useLanguage } from "@/lib/language-context"
+import { Button } from '@/components/ui/button'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import { useLanguage } from '@/lib/language-context'
 
 export function LanguageSwitcher() {
-  const { language, setLanguage } = useLanguage()
+  const { setLanguage } = useLanguage()
 
   return (
     <DropdownMenu>
@@ -17,10 +22,13 @@ export function LanguageSwitcher() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setLanguage("en")}>English</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setLanguage("es")}>Español</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setLanguage('en')}>
+          English
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setLanguage('es')}>
+          Español
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
 }
-

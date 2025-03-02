@@ -28,6 +28,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, [language])
 
   const t = (key: string): string => {
+    // @ts-expect-error some languages may not have all keys
     return translations[language][key] || key
   }
 
